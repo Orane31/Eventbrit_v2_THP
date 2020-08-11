@@ -1,25 +1,31 @@
-# README
+ # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project realized by Julien Lamalle for THP.
 
-Things you may want to cover:
+This web application is an application that showcases events created by users that we generated in our database initially.
 
-* Ruby version
+To create a new event, you have to be logged_in : To log in, you can create your account  ;)
 
-* System dependencies
+To see an event's details, you should also be logged in ;)
 
-* Configuration
+The used version of Ruby is 2.5.1, for Rails we used version 5.2.4.3
 
-* Database creation
+If your versions are different, you can use the command :
 
-* Database initialization
+rm gemfile.lock
 
-* How to run the test suite
+To launch the project on tour local server, consider making a
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle install
+```
+```
+rails db:seed
+```
+```
+rails s
+```
 
-* Deployment instructions
+However you can go directly to :
 
-* ...
-Bonjour, vous êtes sur un dossier Ruby on Rails fait par Benoit Ferretti
+https://event-thp.herokuapp.com/
