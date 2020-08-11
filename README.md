@@ -14,7 +14,7 @@ If your versions are different, you can use the command :
 
 rm gemfile.lock
 
-To launch the project on tour local server, consider making a
+To launch the project on your local server, consider making a
 
 ```
 bundle install
