@@ -1,6 +1,6 @@
  # README
 
-Project realized by Julien Lamalle for THP.
+Project realized by Julien Lamalle, Audelia Sender, and Orane Chaper for THP.
 
 This web application is an application that showcases events created by users that we generated in our database initially.
 
